@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:fillViewport="true">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rightLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- ImageView -->
+
+
+
+        <LinearLayout
+            android:id="@+id/laydetails"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:orientation="vertical"
+            android:layout_weight="4.5" >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:background="@drawable/customborder"
+                android:text="CM Relief Fund Core Areas"
+                android:textColor="#26303D"
+                android:textSize="20sp"></TextView>
+
+
+            <!-- Himachal Map and Name of Application -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical|center_horizontal|top"
+                android:weightSum="5"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/health"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="left|center_horizontal|center_vertical"
+                    android:layout_weight="1">
+
+                    <!-- Section One -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"
+                        android:background="#FFFFFF"
+                        android:layout_margin="5dp"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:padding="10dp"
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                android:src="@drawable/health"/>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left|center_horizontal|center_vertical"
+                                android:text="Health"
+                                android:textSize="10sp"
+                                android:padding="10dp"
+                                android:textColor="#26303D"></TextView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left|center_horizontal|center_vertical"
+                                android:text="More.."
+                                android:textSize="10sp"
+                                android:padding="10dp"
+                                android:textColor="#FFFFFF"
+                                android:background="#9B507E"></Button>
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <!-- Section 1 Ends Here -->
+
+
+                    <!-- Section Two -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"
+                        android:layout_margin="5dp"
+                        android:background="#FFFFFF"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:padding="10dp"
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                android:src="@drawable/education"/>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left|center_horizontal|center_vertical"
+                                android:text="Education"
+                                android:textSize="10sp"
+                                android:padding="10dp"
+                                android:textColor="#26303D"></TextView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left|center_horizontal|center_vertical"
+                                android:text="More.."
+                                android:textSize="10sp"
+                                android:padding="10dp"
+                                android:textColor="#FFFFFF"
+                                android:background="#9B507E"></Button>
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <!-- Section 2 Ends Here -->
+
+                    <!-- Section Three -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"
+                        android:background="#FFFFFF"
+                        android:layout_margin="5dp"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:padding="10dp"
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                android:src="@drawable/disaster"/>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left|center_horizontal|center_vertical"
+                                android:text="Disaster"
+                                android:textSize="10sp"
+                                android:padding="10dp"
+                                android:textColor="#26303D"></TextView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left|center_horizontal|center_vertical"
+                                android:text="More.."
+                                android:textSize="10sp"
+                                android:padding="10dp"
+                                android:textColor="#FFFFFF"
+                                android:background="#9B507E"></Button>
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <!-- Section 3 Ends Here -->
+
+                    <!-- Section Four -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="horizontal"
+                        android:layout_margin="5dp"
+                        android:background="#FFFFFF"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:padding="10dp"
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                android:src="@drawable/needyold"/>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left|center_horizontal|center_vertical"
+                                android:text="Needy"
+                                android:textSize="10sp"
+                                android:padding="10dp"
+                                android:textColor="#26303D"></TextView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left|center_horizontal|center_vertical"
+                                android:text="More.."
+                                android:textSize="10sp"
+                                android:padding="10dp"
+                                android:textColor="#FFFFFF"
+                                android:background="#9B507E"></Button>
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <!-- Section 4 Ends Here -->
+
+                    <!-- Section Five -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="5dp"
+                        android:background="#FFFFFF"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:padding="10dp"
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                android:src="@drawable/girl"/>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left|center_horizontal|center_vertical"
+                                android:text="Girl Child"
+                                android:textSize="10sp"
+                                android:padding="10dp"
+                                android:textColor="#26303D"></TextView>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="fill_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left|center_horizontal|center_vertical"
+                                android:text="More.."
+                                android:textSize="10sp"
+                                android:padding="10dp"
+                                android:textColor="#FFFFFF"
+                                android:background="#9B507E"></Button>
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <!-- Section 5 Ends Here -->
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/customborder"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10px"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:gravity="center|center_horizontal|center_vertical"
+                >
+
+
+            <LinearLayout
+                android:id="@+id/appeal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/customborder"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:layout_margin="10px"
+                android:orientation="vertical"
+                android:gravity="center|center_horizontal|center_vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:textStyle="bold"
+                    android:background="@drawable/customborder"
+                    android:text="How to make an appeal "
+                    android:textColor="#D32424"
+                    android:textSize="10sp"></TextView>
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/appeal"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/donate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/customborder"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10px"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center|center_horizontal|center_vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:textStyle="bold"
+                    android:background="@drawable/customborder"
+                    android:text="How to Donate "
+                    android:textColor="#D32424"
+                    android:textSize="10sp"></TextView>
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/donate"/>
+
+
+
+            </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#26303D"
+                    android:layout_weight="1"
+                    android:text="Back"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+

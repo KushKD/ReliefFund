@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ruleview</string>
+
+        <string name="balance_text"> </string>
+
+        <color name="test">#eb4c1c</color>
+    </resources>
+
+

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fillViewport="false">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rightLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- ImageView -->
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:background="@drawable/customborder"
+                android:text="Options and Settings"
+                android:textColor="#26303D"
+                android:textSize="20sp"></TextView>
+
+
+            <!-- Profile and History -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:weightSum="2"
+                android:background="#FFFFFF"
+                android:layout_margin="10dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/profile"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/customborder"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300px"
+                        android:layout_height="300px"
+                        android:padding="10dp"
+                        android:src="@drawable/profile" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal|center_vertical"
+                        android:padding="10dp"
+                        android:text="Profile"
+                        android:textColor="#26303D"
+                        android:textSize="20sp"></TextView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/history"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/customborder"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="300px"
+                        android:layout_height="300px"
+                        android:padding="10dp"
+                        android:src="@drawable/history" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal|center_vertical"
+                        android:padding="10dp"
+                        android:text="History"
+                        android:textColor="#26303D"
+                        android:textSize="20sp"></TextView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        <!-- logout and settings -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:weightSum="2"
+            android:background="#FFFFFF"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/settings"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/customborder"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:src="@drawable/settings"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    android:text="Settings"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:textColor="#26303D"></TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/logout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/customborder"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:src="@drawable/logout"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    android:text="Logout"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:textColor="#26303D"></TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+        <!-- Help and Other Options -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:weightSum="2"
+            android:background="#FFFFFF"
+            android:layout_margin="10dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/help"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/customborder"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:src="@drawable/help"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    android:text="Help"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:textColor="#26303D"></TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tax_form"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/customborder"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:padding="10dp"
+                    android:src="@drawable/download" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:padding="10dp"
+                    android:text="Download 80G Form"
+                    android:textColor="#26303D"
+                    android:textSize="20sp"></TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+    <!--android:text="\u00A9 2016 Department Of Information Technology Himachal Pradesh"-->

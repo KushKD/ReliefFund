@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cmreliefdund.kushkumardhawan.com.relieffund">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Registration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.Donate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.PermissionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity.loginType"
+            android:label="@string/title_activity_login_type" />
+        <activity android:name=".Activity.Appeal" />
+        <activity android:name=".Activity.Help" />
+        <activity android:name=".Activity.ProfileUser" />
+        <activity android:name=".Activity.WebViewActivity" />
+        <activity android:name=".Activity.HistoryUser"></activity>
+    </application>
+
+</manifest>

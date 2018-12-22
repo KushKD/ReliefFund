@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:weightSum="3"
+    tools:context=".Activity.Donate">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+        <!-- Scroll View Goes Here -->
+        <ScrollView
+            android:id="@+id/login_form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_money_settings"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:weightSum="3"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+
+
+                <!-- Create an Appeal  -->
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/customborder"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textColor="#D32424"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:layout_weight="12"
+                        android:text="Create an Appeal" />
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+                <!-- Enter Name -->
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:weightSum="2"
+                    android:background="#FFFFFF"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textColor="#26303D"
+                        android:textStyle="bold"
+                        android:gravity="center|center_vertical|center_horizontal"
+                        android:layout_weight="1.5"
+                        android:text="Name" />
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:background="@drawable/rounded_edittext"
+                        android:textColor="#26303D"
+                        android:textSize="12sp" />
+
+
+
+
+                </LinearLayout>
+
+                <!-- Enter Mobile -->
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:weightSum="2"
+                    android:background="#FFFFFF"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textColor="#26303D"
+                        android:textStyle="bold"
+                        android:gravity="center|center_vertical|center_horizontal"
+                        android:layout_weight="1.5"
+                        android:text="Mobile" />
+
+                    <TextView
+                        android:id="@+id/mobile"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:inputType="number"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:background="@drawable/rounded_edittext"
+                        android:textColor="#26303D"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+
+
+                <!-- Enter Email -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:weightSum="2"
+                    android:layout_margin="5dp"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textColor="#26303D"
+                        android:textStyle="bold"
+                        android:gravity="center|center_vertical|center_horizontal"
+                        android:layout_weight="1.5"
+                        android:layout_margin="5dp"
+                        android:text="Email" />
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:inputType="textWebEmailAddress"
+                        android:background="@drawable/rounded_edittext"
+                        android:textColor="#26303D"
+                        android:textSize="12sp" />
+
+
+
+
+                </LinearLayout>
+
+                <!-- Enter Category -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:weightSum="2"
+                    android:layout_margin="5dp"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textColor="#26303D"
+                        android:textStyle="bold"
+                        android:gravity="center|center_vertical|center_horizontal"
+                        android:layout_weight="1.5"
+                        android:layout_margin="5dp"
+                        android:text="Category" />
+
+                    <Spinner
+                        android:id="@+id/category"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:background="@drawable/spinner_bg"
+                        android:textSize="12sp" />
+
+
+
+
+                </LinearLayout>
+
+                <!-- Enter District -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:weightSum="2"
+                    android:background="#FFFFFF"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textColor="#26303D"
+                        android:textStyle="bold"
+                        android:gravity="center|center_vertical|center_horizontal"
+                        android:layout_weight="1.5"
+                        android:layout_margin="5dp"
+                        android:text="District" />
+
+                    <EditText
+                        android:id="@+id/district"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:layout_weight="0.5"
+                        android:inputType="textWebEmailAddress"
+                        android:background="@drawable/rounded_edittext"
+                        android:textColor="#26303D"
+                        android:textSize="12sp" />
+
+
+
+
+                </LinearLayout>
+
+                <!-- Enter Block -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:weightSum="2"
+                    android:layout_margin="5dp"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textColor="#26303D"
+                        android:textStyle="bold"
+                        android:gravity="center|center_vertical|center_horizontal"
+                        android:layout_weight="1.5"
+                        android:layout_margin="5dp"
+                        android:text="Block" />
+
+                    <EditText
+                        android:id="@+id/block"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:inputType="textWebEmailAddress"
+                        android:background="@drawable/rounded_edittext"
+                        android:textColor="#26303D"
+                        android:textSize="12sp" />
+
+
+
+
+                </LinearLayout>
+
+                <!-- Enter Village -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:weightSum="2"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textColor="#26303D"
+                        android:textStyle="bold"
+                        android:layout_weight="1.5"
+                        android:gravity="center|center_vertical|center_horizontal"
+                        android:layout_margin="5dp"
+                        android:text="Village" />
+
+                    <EditText
+                        android:id="@+id/village"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.5"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:inputType="textWebEmailAddress"
+                        android:background="@drawable/rounded_edittext"
+                        android:textColor="#26303D"
+                        android:textSize="12sp" />
+
+
+
+
+                </LinearLayout>
+
+                <!-- Enter Description -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:weightSum="2"
+                    android:background="#FFFFFF"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:textColor="#26303D"
+                        android:textStyle="bold"
+                        android:layout_weight="1.5"
+                        android:gravity="center|center_vertical|center_horizontal"
+                        android:layout_margin="5dp"
+                        android:text="Description" />
+
+                    <EditText
+                        android:id="@+id/decription"
+                        android:layout_width="fill_parent"
+                        android:layout_height="80dp"
+                        android:layout_weight="0.5"
+                        android:gravity="center|center_horizontal|center_vertical"
+                        android:inputType="textWebEmailAddress"
+                        android:background="@drawable/rounded_edittext"
+                        android:textColor="#26303D"
+                        android:textSize="12sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:background="#FFFFFF"
+                    android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/back"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+
+                        android:background="#26303D"
+                        android:layout_weight="1"
+                        android:text="Back"
+                        android:textAllCaps="false" />
+
+                    <Button
+                        android:id="@+id/submit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:onClick="onClick"
+                        android:background="#26303D"
+                        android:text="Submit"
+                        android:textAllCaps="false" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

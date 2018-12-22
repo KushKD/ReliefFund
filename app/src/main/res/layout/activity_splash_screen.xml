@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rightLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E6E6E6"
+    android:weightSum="5">
+
+    <!-- ImageView -->
+
+
+
+    <LinearLayout
+        android:id="@+id/laydetails"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:orientation="vertical"
+        android:layout_weight="4.5" >
+
+
+        <!-- Himachal Map and Name of Application -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal|top"
+            android:weightSum="4"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:layout_weight="1.5">
+
+                <ImageView
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:src="@drawable/hp_map"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:background="#FFFFFF"
+                android:gravity="center|center_horizontal|center_vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#26303D"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:text="Mukhyamantri Rahat Kosh"/>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:background="@drawable/splash_back">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:text="Mera Pradesh Mera Pariwar"
+                android:textSize="24sp"
+                android:padding="10dp"
+                android:textColor="#FBB216">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <!-- Button -->
+    <LinearLayout
+        android:id="@+id/lay3"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:background="#354355"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:gravity="center|center_horizontal|center_vertical"
+        >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/progressBar" />
+
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#FBB216"
+            android:layout_gravity="top|center_vertical|center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="-20dp"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+    </LinearLayout>
+
+</LinearLayout>
+
+    <!--android:text="\u00A9 2016 Department Of Information Technology Himachal Pradesh"-->

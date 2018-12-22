@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e6e6e6"
+    android:fillViewport="false">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rightLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:weightSum="5">
+
+    <!-- ImageView -->
+
+
+
+    <LinearLayout
+        android:id="@+id/laydetails"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:orientation="vertical"
+        android:layout_weight="4.5" >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:background="@drawable/customborder"
+            android:text="CM Relief Fund Core Areas"
+            android:textColor="#26303D"
+            android:textSize="20sp"></TextView>
+
+
+        <!-- Himachal Map and Name of Application -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal|top"
+            android:weightSum="5"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/health"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:src="@drawable/health"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    android:text="Health"
+                    android:textSize="10sp"
+                    android:padding="10dp"
+                    android:textColor="#26303D"></TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/education"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:src="@drawable/education"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    android:text="Education"
+                    android:textSize="10sp"
+                    android:padding="10dp"
+                    android:textColor="#26303D"></TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/disaster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:src="@drawable/disaster"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    android:text="Disaster"
+                    android:textSize="10sp"
+                    android:padding="10dp"
+                    android:textColor="#26303D"></TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/needy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:src="@drawable/needyold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    android:text="Needy"
+                    android:textSize="10sp"
+                    android:padding="10dp"
+                    android:textColor="#26303D"></TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/girl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:padding="10dp"
+                    android:layout_width="200px"
+                    android:layout_height="200px"
+                    android:src="@drawable/girl"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal|center_vertical"
+                    android:text="Girl Child"
+                    android:textSize="10sp"
+                    android:padding="10dp"
+                    android:textColor="#26303D"></TextView>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:layout_margin="10px"
+            android:orientation="vertical"
+            android:gravity="center|center_horizontal|center_vertical"
+            >
+
+
+
+            <TextView
+                android:id="@+id/discription"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:textSize="15sp"
+                android:gravity="left|center_horizontal|center_vertical"
+                android:padding="10dp"
+                android:textColor="#26303D"></TextView>
+
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textStyle="bold"
+            android:background="@drawable/customborder"
+            android:text="Make a Donation "
+            android:textColor="#028CAB"
+            android:textSize="20sp"></TextView>
+
+        <LinearLayout
+            android:id="@+id/donate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:layout_marginTop="20dp"
+            android:layout_margin="10px"
+            android:orientation="horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:weightSum="3"
+            >
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/donate"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:textSize="15sp"
+                android:layout_weight="2"
+                android:gravity="left|center_horizontal|center_vertical"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="Domestic VISA, Master, Rupay Debit/Credit cards, Net banking and International Cards UPI ID/QR VPA based donation, Wallets,Mobile banking option is also available. Click here to donate."
+                android:textColor="#028CAB"></TextView>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textStyle="bold"
+            android:background="@drawable/customborder"
+            android:text="Make an Appeal "
+            android:textColor="#D32424"
+            android:textSize="20sp"></TextView>
+
+        <LinearLayout
+            android:id="@+id/appeal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:layout_marginTop="20dp"
+            android:layout_margin="10px"
+            android:orientation="horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:weightSum="3"
+            >
+
+            <ImageView
+                android:padding="10dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/appeal"/>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:layout_weight="2"
+                android:gravity="left|center_horizontal|center_vertical"
+                android:padding="5dp"
+                android:text="C.M.Relief Fund will be given to District wise Beneficiary request for different purposes. Click here to appeal."
+                android:textColor="#D32424"
+                android:textSize="15sp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textStyle="bold"
+            android:background="@drawable/customborder"
+            android:text="What is CM Relief Fund"
+            android:textColor="#26303D"
+            android:textSize="20sp"></TextView>
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/customborder"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_margin="10px"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:gravity="center|center_horizontal|center_vertical"-->
+            <!--android:weightSum="3"-->
+            <!--&gt;-->
+
+            <!--<cmreliefdund.kushkumardhawan.com.relieffund.Presentation.RoundedImageView-->
+
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center|center_vertical|center_horizontal"-->
+                <!--android:src="@drawable/splash_back"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/cmReliefFund"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center|center_horizontal|center_vertical"-->
+                <!--android:textSize="15sp"-->
+                <!--android:layout_weight="2"-->
+                <!--android:gravity="left|center_horizontal|center_vertical"-->
+                <!--android:padding="5dp"-->
+                <!--android:text="C.M. Relief Fund is Fund at State Headquarters at the Disposal of Hon'ble C.M . Moreover, There is a District Relief Fund at each of the District Headquarters in the State at the Disposal of Deputy Commissioner. Expenditure from the Chief Minister's Relief Fund may be incurred at Chief Minister's discretion for such purposes as may be approved by him."-->
+                <!--android:textColor="#26303D"></TextView>-->
+
+        <!--</LinearLayout>-->
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+</ScrollView>
+
+    <!--android:text="\u00A9 2016 Department Of Information Technology Himachal Pradesh"-->
